@@ -1,11 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>SixLaborsCaptcha.Core</AssemblyName>
-    <RootNamespace>SixLaborsCaptcha.Core</RootNamespace>
-    <Version>1.0.0</Version>
-    <RepositoryUrl>https://github.com/aliasadidev/SixLaborsCaptcha</RepositoryUrl>
-    <PackageDescription>Generate captcha with SixLabors' libraries on .NET Core (run in both Windows and Linux environments)</PackageDescription>
+    <PackageId>Mii.SixLaborsCaptcha.Core</PackageId>
+    <AssemblyName>Mii.SixLaborsCaptcha.Core</AssemblyName>
+    <RootNamespace>Mii.SixLaborsCaptcha.Core</RootNamespace>
+    <Version>1.0.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/firstyuyu/SixLaborsCaptcha</RepositoryUrl>
+    <PackageDescription>Forked the original repository to address vulnerable dependencies</PackageDescription>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
@@ -13,6 +15,6 @@
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.4" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
