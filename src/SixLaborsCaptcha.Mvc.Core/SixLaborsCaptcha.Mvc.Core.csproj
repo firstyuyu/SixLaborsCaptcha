@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <PackageId>Mii.SixLaborsCaptcha.Mvc.Core</PackageId>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <AssemblyName>Mii.SixLaborsCaptcha.Mvc.Core</AssemblyName>
     <RootNamespace>Mii.SixLaborsCaptcha.Mvc.Core</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
